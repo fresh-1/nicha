@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#150a30">
+<title>ครบ 1 เดือน ณิชา 🌙</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mali:wght@400;600;700&display=swap">
+<style>
+:root{--bg1:#150a30;--bg2:#2a1658;--card:rgba(255,255,255,.08);--bd:rgba(216,180,254,.28);--ink:#f5edff;--soft:#cbb5f2;--ac:#c084fc;--pk:#f0abfc;--gold:#fde68a;--glow:rgba(192,132,252,.45);color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark}}
+:root[data-theme="dark"]{color-scheme:dark}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px);background:var(--bg1)}
+body{margin:0;background:linear-gradient(180deg,var(--bg1) 0%,var(--bg2) 45%,var(--bg1) 100%);background-attachment:fixed;color:var(--ink);font-family:Mali,"Noto Sans Thai",Sarabun,sans-serif;text-align:center;overflow-x:hidden;line-height:1.8}
+h1,h2{color:var(--pk);margin:.2em 0;line-height:1.35;text-shadow:0 0 22px var(--glow)}
+h1{font-size:clamp(1.9rem,8vw,3rem)}h2{font-size:clamp(1.5rem,6.5vw,2.2rem)}
+p{color:var(--soft);font-size:1.02rem;max-width:30rem;margin:.5em auto}
+section{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:56px 18px;position:relative;z-index:2}
+button{font:inherit;font-weight:700;background:linear-gradient(135deg,#a855f7,#ec4899);color:#fff;border:0;border-radius:999px;padding:14px 30px;font-size:1.05rem;cursor:pointer;margin:14px 6px 0;box-shadow:0 8px 24px var(--glow);min-height:50px}
+button:active{transform:scale(.95)}
+.rv{opacity:0;transform:translateY(26px);transition:all .9s ease}.rv.on{opacity:1;transform:none}
+#bg{position:fixed;inset:0;pointer-events:none;z-index:1;overflow:hidden}
+.st{position:absolute;background:#fff;border-radius:50%;animation:tw 3s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+.fl{position:absolute;bottom:-40px;animation:up linear forwards;opacity:.6}
+@keyframes up{to{transform:translateY(-115vh) rotate(30deg);opacity:0}}
+.shoot{position:absolute;top:8%;left:-10%;width:90px;height:2px;background:linear-gradient(90deg,transparent,#fff);transform:rotate(25deg);opacity:0;animation:sh 9s infinite 3s}
+@keyframes sh{0%{opacity:0;transform:translate(0,0) rotate(25deg)}3%{opacity:1}12%{opacity:0;transform:translate(120vw,50vh) rotate(25deg)}100%{opacity:0}}
+@keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+.moon{font-size:4.6rem;animation:beat 3s infinite;filter:drop-shadow(0 0 22px var(--gold))}
+#lock{position:fixed;inset:0;z-index:50;background:linear-gradient(160deg,var(--bg1),var(--bg2));display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;padding-top:calc(24px + env(safe-area-inset-top,0px));transition:opacity .8s}
+#lock input{font:inherit;font-size:1.15rem;text-align:center;padding:14px 20px;border-radius:999px;border:2px solid var(--bd);background:var(--card);color:var(--ink);width:min(300px,82vw);outline:none}
+#lock input:focus{border-color:var(--ac)}
+.shake{animation:shk .4s}@keyframes shk{25%{transform:translateX(-10px)}75%{transform:translateX(10px)}}
+#msg{min-height:1.8em;color:var(--pk);font-weight:600}
+.gl{background:var(--card);border:1px solid var(--bd);border-radius:22px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.cd{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;width:100%;max-width:26rem;margin:20px 0 8px}
+.cd div{padding:14px 2px}.cd b{display:block;font-size:clamp(1.5rem,8vw,2.2rem);color:var(--gold)}.cd span{font-size:.78rem;color:var(--soft)}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;width:100%;max-width:26rem;margin-top:14px}
+.fc{height:140px;perspective:700px;cursor:pointer}
+.fc div{position:relative;width:100%;height:100%;transition:transform .6s;transform-style:preserve-3d}
+.fc.f div{transform:rotateY(180deg)}
+.fc i,.fc em{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:20px;display:flex;align-items:center;justify-content:center;padding:12px;font-style:normal;font-size:.95rem}
+.fc i{background:var(--card);border:1px solid var(--bd);font-size:2.4rem}
+.fc em{background:linear-gradient(135deg,#7c3aed,#db2777);color:#fff;transform:rotateY(180deg);font-weight:600;line-height:1.5}
+#gw{width:100%;max-width:360px}
+#cw{position:relative}
+canvas{width:100%;display:block;border-radius:22px;background:linear-gradient(180deg,#2a1658,#150a30);border:1px solid var(--bd);touch-action:none}
+#hud{display:flex;justify-content:space-between;font-weight:700;color:var(--gold);margin:6px 8px}
+#ov{position:absolute;inset:0;background:rgba(21,10,48,.88);border-radius:22px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px}
+.letter{padding:28px 22px;max-width:30rem;text-align:left}
+.letter p{color:var(--ink);margin:.7em 0;max-width:none}
+.hide{display:none!important}
+.aur{position:fixed;inset:-20%;z-index:0;pointer-events:none;background:radial-gradient(40% 30% at 20% 20%,rgba(168,85,247,.35),transparent 70%),radial-gradient(35% 28% at 80% 35%,rgba(236,72,153,.25),transparent 70%),radial-gradient(45% 30% at 50% 85%,rgba(99,102,241,.3),transparent 70%);animation:dr 18s ease-in-out infinite alternate}
+@keyframes dr{to{transform:translate(4%,3%) scale(1.08)}}
+.gt{background:linear-gradient(90deg,#f0abfc,#c4b5fd,#fde68a,#f0abfc);background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;text-shadow:none;animation:gs 6s linear infinite}
+@keyframes gs{to{background-position:200% center}}
+h2::before,h2::after{content:"✦";color:var(--gold);font-size:.55em;margin:0 .55em;vertical-align:middle;opacity:.85}
+.bigmoon{--s:130px;width:var(--s);height:var(--s);margin:0 auto 12px;border-radius:50%;position:relative;background:radial-gradient(circle at 35% 35%,#fffbe6,#fde68a 55%,#f5c76b);box-shadow:0 0 60px 10px rgba(253,230,138,.45),0 0 140px 40px rgba(192,132,252,.28);animation:beat 5s infinite}
+#lock .bigmoon{--s:96px}
+.bigmoon::before{content:"";position:absolute;left:62%;top:25%;width:22%;height:22%;border-radius:50%;background:rgba(214,170,90,.35)}
+.bigmoon::after{content:"";position:absolute;left:24%;top:58%;width:30%;height:30%;border-radius:50%;background:rgba(214,170,90,.28)}
+#lock{background:radial-gradient(60% 40% at 50% 18%,rgba(192,132,252,.35),transparent 70%),linear-gradient(160deg,var(--bg1),var(--bg2))}
+#lock::before{content:"";position:absolute;left:0;top:0;width:2px;height:2px;border-radius:50%;background:#fff;box-shadow:30px 70px #fff,90px 160px #fff,160px 40px #fff,230px 110px #fff,300px 60px #fff,350px 170px #fff,60px 300px #fff,330px 330px #fff,200px 260px #fff,120px 420px #fff,280px 480px #fff,40px 560px #fff,340px 600px #fff,180px 700px #fff;animation:tw 3s infinite}
+section+section::before{content:"✦ ✧ ✦";position:absolute;top:14px;left:0;right:0;color:var(--gold);opacity:.5;letter-spacing:.8em;font-size:.8rem}
+.cd .gl{background:linear-gradient(160deg,rgba(192,132,252,.24),rgba(236,72,153,.1));box-shadow:0 0 24px rgba(192,132,252,.28)}
+.fc i{background:linear-gradient(160deg,rgba(192,132,252,.26),rgba(236,72,153,.12));box-shadow:0 0 18px rgba(192,132,252,.28)}
+.letter{position:relative;margin-top:18px}
+.letter::before{content:"💌";position:absolute;top:-24px;left:50%;transform:translateX(-50%);font-size:2.1rem}
+#prize::before{content:"🎟️"}
+.cst{width:min(250px,68vw);margin-top:6px;filter:drop-shadow(0 0 10px rgba(192,132,252,.7))}
+.cst polyline{fill:none;stroke:#d8b4fe;stroke-width:1.3;stroke-dasharray:700;stroke-dashoffset:700;transition:stroke-dashoffset 4s ease .3s}
+.cst.on polyline{stroke-dashoffset:0}
+.cst circle{fill:#fde68a;animation:tw 2.5s infinite}
+.ff{position:absolute;width:6px;height:6px;border-radius:50%;background:#fde68a;box-shadow:0 0 10px 3px rgba(253,230,138,.7);opacity:0;animation:ffm 9s ease-in-out infinite}
+@keyframes ffm{0%{transform:translate(0,0);opacity:0}20%,80%{opacity:.9}50%{transform:translate(var(--x),var(--y))}100%{transform:translate(calc(var(--x)*-.5),calc(var(--y)*1.6));opacity:0}}
+.sp{position:fixed;z-index:70;pointer-events:none;color:#fde68a;font-size:15px;animation:spk .8s ease-out forwards}
+@keyframes spk{to{transform:translate(var(--dx),var(--dy)) scale(.3);opacity:0}}
+.tl{position:relative;width:100%;max-width:26rem;text-align:left;padding-left:34px;margin-top:18px}
+.tl::before{content:"";position:absolute;left:10px;top:6px;bottom:6px;width:2px;background:linear-gradient(180deg,#c084fc,#f0abfc,#fde68a);box-shadow:0 0 10px var(--glow)}
+.ti{position:relative;margin-bottom:20px;padding:14px 16px}
+.ti::before{content:"";position:absolute;left:-30px;top:20px;width:14px;height:14px;border-radius:50%;background:var(--gold);box-shadow:0 0 14px 3px rgba(253,230,138,.7)}
+.ti small{display:block;color:var(--gold);font-weight:700}
+.ti p{margin:.2em 0 0;color:var(--ink);max-width:none}
+#gh{position:fixed;z-index:45;left:100px;top:40vh;width:54px;text-align:center;cursor:pointer;transition:left 6s ease-in-out,top 6s ease-in-out}
+#gh span{display:block;font-size:2.6rem;line-height:1;filter:drop-shadow(0 0 14px rgba(255,255,255,.7));animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-9px) rotate(6deg)}}
+#gb{position:absolute;bottom:62px;left:50%;transform:translateX(-50%);width:max-content;max-width:190px;padding:10px 14px;font-size:.9rem;line-height:1.5;color:var(--ink);background:rgba(58,31,110,.96);border:1px solid var(--bd);border-radius:16px;box-shadow:0 0 18px var(--glow)}
+.playing #gh{display:none}
+#fin{position:fixed;inset:0;z-index:90;background:rgba(21,10,48,.95);opacity:0;transition:opacity .6s}
+#fin.on{opacity:1}
+#fin canvas{width:100%;height:100%;border:0;border-radius:0;background:none;display:block}
+#fx{position:absolute;bottom:calc(28px + env(safe-area-inset-bottom,0px));left:0;right:0;margin:auto;width:max-content}
+</style>
+</head>
+<body>
+<div class="aur"></div>
+<div id="bg"><div class="shoot"></div><div class="shoot" style="top:32%;animation-delay:7s"></div></div>
+
+<div id="lock">
+  <div class="bigmoon"></div>
+  <h1>ถึงคุณแฟนสุดที่รักณิชา 💜</h1>
+  <p>เว็บนี้มีไว้ให้ณิชาคนเดียวเท่านั้น<br>พิมพ์รหัสลับดูสิ</p>
+  <input id="pw" type="text" placeholder="รหัสลับ…" autocomplete="off" autocapitalize="none" onkeydown="if(event.key==='Enter')unlock()">
+  <button onclick="unlock()">ปลดล็อก 💜</button>
+  <p id="msg"></p>
+  <p style="font-size:.88rem">ใบ้: เป็นมุขที่ณิชาใช้ตอนแอบชอบ 👻</p>
+</div>
+
+<section>
+  <div class="bigmoon rv"></div>
+  <h1 class="rv"><span class="gt">สุขสันต์ครบ 1 เดือนน้าคับ ณิชา</span> 💜</h1>
+  <p class="rv">╰(*°▽°*)╯</p>
+  <div class="cd rv">
+    <div class="gl"><b id="d">0</b><span>วัน</span></div><div class="gl"><b id="h">0</b><span>ชั่วโมง</span></div>
+    <div class="gl"><b id="m">0</b><span>นาที</span></div><div class="gl"><b id="s">0</b><span>วินาที</span></div>
+  </div>
+  <p class="rv" style="font-size:.92rem">รักณิชาทุกวินาทีเลยคับ ✨</p>
+  <svg class="cst rv" viewBox="0 0 200 180" role="img" aria-label="หัวใจจากดวงดาวของณิชา"><polyline points="100,160 60,122 28,86 22,56 40,30 68,28 88,46 100,64 112,46 132,28 160,30 178,56 172,86 140,122 100,160"/><text x="100" y="104" text-anchor="middle" fill="#fde68a" font-size="17" font-family="Mali,sans-serif">ณิชา</text></svg>
+</section>
+
+<section>
+  <h2 class="rv">เหตุผลที่เรารักเธอ 💌</h2>
+  <p class="rv">แตะที่หัวใจเพื่อพลิกดูนะ</p>
+  <div class="grid rv" id="rs"></div>
+</section>
+
+<section>
+  <h2 class="rv">เกมรับหัวใจ 💜</h2>
+  <p class="rv">ลากนิ้วเพื่อเลื่อนตะกร้ารับหัวใจ หลบหัวใจที่แตก 💔<br>รับให้ได้ 12 ดวงภายใน 30 วินาที แล้วจะมีของรางวัล!</p>
+  <div id="gw" class="rv">
+    <div id="hud"><span>💜 <span id="sc">0</span> / 12</span><span>⏱ <span id="tm">30</span> วิ</span></div>
+    <div id="cw">
+      <canvas id="g" width="360" height="480"></canvas>
+      <div id="ov"><div class="moon" style="font-size:3.4rem">🧺</div><h2>พร้อมไหม?</h2><button onclick="start()">เริ่มเลย 💜</button></div>
+    </div>
+  </div>
+  <div id="prize" class="gl letter hide" style="margin-top:22px;text-align:center">
+    <h2>ชนะแล้ว! 🎉</h2>
+    <p style="color:var(--ink)">ของรางวัล:ขออะไรก็ได้ <b> 1 อย่าง</b> ใช้เมื่อไหร่ก็ได้ 🎟️💜</p>
+  </div>
+</section>
+
+<section>
+  <div class="moon rv">🥹</div>
+  <h1 class="rv">ณิชา รักเค้ามั้ย?</h1>
+  <div class="rv"><button onclick="yes()">แน่นอน 💜</button><button id="no" style="background:#6d4fa8" onmouseover="dodge()" ontouchstart="dodge()" onclick="dodge()">ไม่</button></div>
+  <h2 id="ans" class="hide" style="margin-top:26px">รู้อยู่แล้วละคับ 💜<br>สุขสันต์ครบ 1 เดือน รักนะ!</h2>
+</section>
+
+<script>
+function $(i){return document.getElementById(i)}
+var START=new Date(2026,8,30,0,0,0); // 30 ก.ย. 2026
+/* stars + floating hearts */
+(function(){for(var i=0;i<70;i++){var e=document.createElement('span');e.className='st';var z=1+Math.random()*2.2;e.style.cssText='left:'+Math.random()*100+'%;top:'+Math.random()*100+'%;width:'+z+'px;height:'+z+'px;animation-delay:'+Math.random()*3+'s;animation-duration:'+(2+Math.random()*3)+'s';$('bg').appendChild(e)}})();
+function fl(){var e=document.createElement('span');e.className='fl';e.textContent=['💜','💖','✨','🌙'][Math.floor(Math.random()*4)];e.style.left=Math.random()*100+'%';e.style.fontSize=(14+Math.random()*18)+'px';e.style.animationDuration=(8+Math.random()*7)+'s';$('bg').appendChild(e);setTimeout(function(){e.remove()},15500)}
+if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){setInterval(fl,1100)}
+/* fireflies, heart constellation, tap sparkles */
+(function(){if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;for(var i=0;i<16;i++){var e=document.createElement('span');e.className='ff';e.style.cssText='left:'+Math.random()*100+'%;top:'+Math.random()*100+'%;animation-delay:'+Math.random()*9+'s;animation-duration:'+(7+Math.random()*6)+'s;--x:'+(Math.random()*60-30)+'px;--y:'+(-10-Math.random()*80)+'px';$('bg').appendChild(e)}})();
+(function(){var sv=document.querySelector('.cst');sv.querySelector('polyline').getAttribute('points').split(' ').forEach(function(q,i){var c=q.split(','),e=document.createElementNS('http://www.w3.org/2000/svg','circle');e.setAttribute('cx',c[0]);e.setAttribute('cy',c[1]);e.setAttribute('r',2.6);e.style.animationDelay=(i*.25)+'s';sv.appendChild(e)})})();
+document.addEventListener('pointerdown',function(e){for(var i=0;i<6;i++){var s=document.createElement('span');s.textContent='✦';s.className='sp';s.style.left=e.clientX+'px';s.style.top=e.clientY+'px';s.style.setProperty('--dx',(Math.random()*80-40)+'px');s.style.setProperty('--dy',(Math.random()*80-50)+'px');document.body.appendChild(s);setTimeout(function(x){x.remove()},800,s)}});
+/* password */
+function unlock(){
+  var v=$('pw').value.toLowerCase().replace(/[^a-z]/g,'');
+  if(v==='theghost'||v==='ghost'){$('lock').style.opacity=0;setTimeout(function(){$('lock').remove()},800);burst(30);setTimeout(ghost,1200)}
+  else{var p=$('pw');p.classList.remove('shake');void p.offsetWidth;p.classList.add('shake');$('msg').textContent='ยังไม่ใช่นะ ลองคิดดูอีกที 👻'}
+}
+/* counter */
+function tick(){var s=Math.max(0,Math.floor((Date.now()-START)/1000));$('d').textContent=Math.floor(s/86400);$('h').textContent=Math.floor(s%86400/3600);$('m').textContent=Math.floor(s%3600/60);$('s').textContent=s%60}
+tick();setInterval(tick,1000);
+/* flip cards */
+['ณิชาน่ารักแถมยังสวยอีกด้วย','ตอนอยู่กับณิชาแล้วสบายใจที่สุด','เป็นแรกและคนเดี่ยวที่ทำให้หลงได้','อยู่กับณิชาแล้วความสุขตลอด'].forEach(function(r){
+  var c=document.createElement('div');c.className='fc';c.innerHTML='<div><i>💜</i><em>'+r+'</em></div>';
+  c.onclick=function(){c.classList.toggle('f');burst(5)};$('rs').appendChild(c)});
+/* reveal */
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)e.target.classList.add('on')})},{threshold:.12});document.querySelectorAll('.rv').forEach(function(e){io.observe(e)})}else{document.querySelectorAll('.rv').forEach(function(e){e.classList.add('on')})}
+/* burst */
+function burst(n){n=n||14;for(var i=0;i<n;i++){var e=document.createElement('span');e.className='fl';e.style.opacity=1;e.style.zIndex=60;e.textContent=['💜','💖','💕','✨'][i%4];e.style.left=Math.random()*100+'%';e.style.fontSize=(18+Math.random()*26)+'px';e.style.animationDuration=(2+Math.random()*2.5)+'s';e.style.position='fixed';document.body.appendChild(e);setTimeout(function(x){x.remove()},4800,e)}}
+/* game: ทุกอย่างวาดด้วยโค้ด ไม่พึ่ง emoji ใน canvas */
+var cv=$('g'),cx=cv.getContext('2d'),W=360,H=480,GOAL=12,run=false,score=0,t=30,hs=[],bx=180,last=0,sp=0;
+function pos(x){var r=cv.getBoundingClientRect();bx=Math.max(40,Math.min(W-40,(x-r.left)*W/r.width))}
+cv.addEventListener('touchstart',function(e){e.preventDefault();pos(e.touches[0].clientX)},{passive:false});
+cv.addEventListener('touchmove',function(e){e.preventDefault();pos(e.touches[0].clientX)},{passive:false});
+cv.addEventListener('mousemove',function(e){pos(e.clientX)});
+document.addEventListener('keydown',function(e){if(e.key==='ArrowLeft')bx=Math.max(40,bx-34);if(e.key==='ArrowRight')bx=Math.min(W-40,bx+34)});
+function heart(x,y,s,c,bad){
+  cx.fillStyle=c;cx.beginPath();cx.moveTo(x,y+s);
+  cx.bezierCurveTo(x-s*1.7,y-s*.2,x-s*.9,y-s*1.4,x,y-s*.45);
+  cx.bezierCurveTo(x+s*.9,y-s*1.4,x+s*1.7,y-s*.2,x,y+s);cx.fill();
+  if(bad){cx.strokeStyle='#150a30';cx.lineWidth=3;cx.beginPath();cx.moveTo(x,y-s*.45);cx.lineTo(x-s*.3,y);cx.lineTo(x+s*.25,y+s*.3);cx.lineTo(x,y+s);cx.stroke()}
+}
+function start(){document.body.classList.add('playing');score=0;t=30;hs=[];sp=0;last=0;run=true;$('ov').classList.add('hide');$('sc').textContent=0;$('tm').textContent=30;$('prize').classList.add('hide');requestAnimationFrame(loop)}
+function loop(ts){
+  if(!run)return;if(!last)last=ts;var dt=Math.min(.05,(ts-last)/1000);last=ts;t-=dt;sp-=dt;
+  if(sp<=0){sp=Math.max(.35,.6-(30-t)*.008);hs.push({x:26+Math.random()*(W-52),y:-24,v:120+Math.random()*70+(30-t)*3,b:Math.random()<.2,c:Math.random()<.5?'#f472b6':'#c084fc'})}
+  hs.forEach(function(h){h.y+=h.v*dt});
+  hs=hs.filter(function(h){if(h.y>H-90&&h.y<H-30&&Math.abs(h.x-bx)<50){score=Math.max(0,score+(h.b?-2:1));return false}return h.y<H+40});
+  cx.clearRect(0,0,W,H);
+  hs.forEach(function(h){heart(h.x,h.y,15,h.b?'#7c6f99':h.c,h.b)});
+  cx.fillStyle='#a78bfa';cx.beginPath();cx.moveTo(bx-44,H-66);cx.lineTo(bx+44,H-66);cx.lineTo(bx+32,H-24);cx.lineTo(bx-32,H-24);cx.closePath();cx.fill();
+  cx.fillStyle='#ddd6fe';cx.fillRect(bx-48,H-72,96,10);
+  $('sc').textContent=score;$('tm').textContent=Math.max(0,Math.ceil(t));
+  if(t<=0){run=false;end()}else requestAnimationFrame(loop)
+}
+function end(){
+  document.body.classList.remove('playing');var w=score>=GOAL;$('ov').classList.remove('hide');
+  $('ov').innerHTML='<div class="moon" style="font-size:3.4rem">'+(w?'🏆':'🥺')+'</div><h2>'+(w?'เก่งมากเลย!':'เกือบแล้ว!')+'</h2><p style="color:var(--ink)">รับได้ '+score+' ดวง'+(w?' เลื่อนลงไปรับรางวัลเลย 👇':' ต้องได้ '+GOAL+' ดวง ลองอีกครั้งนะ')+'</p><button onclick="start()">'+(w?'เล่นอีกครั้ง':'ลองอีกครั้ง')+'</button>';
+  if(w){$('prize').classList.remove('hide');burst(40);setTimeout(function(){$('prize').scrollIntoView({behavior:'smooth',block:'center'})},900)}
+}
+/* ผีน้อย 👻 แก้ประโยคตรงนี้ได้ */
+var GL=['บู้! 👻 ผีน้อยมาดูว่าณิชายิ้มอยู่รึเปล่า','ผีน้อยรู้นะ ว่าใครเคยแอบชอบใครตั้งแต่ก่อนเป็นแฟนกัน 🤭','มุขผีนี้ ณิชาเป็นคนเริ่มเองน้า 💜','ผีน้อยขอแอบกระซิบ: เค้ารักณิชามากเลยคับ','วันนี้ณิชากินข้าวรึยังคับ? ผีน้อยเป็นห่วง 🍚','ถ้าณิชาเหนื่อย ผีน้อยจะอยู่ข้าง ๆ เสมอเลย','ผีตัวนี้ไม่หลอกหรอก แต่ขอหลอกให้ยิ้มนะ 😆'],gi=0;
+function ghost(){
+  var g=document.createElement('div');g.id='gh';g.innerHTML='<div id="gb" class="hide"></div><span>👻</span>';document.body.appendChild(g);
+  function go(){g.style.left=(100+Math.random()*Math.max(0,innerWidth-250))+'px';g.style.top=(140+Math.random()*Math.max(0,innerHeight-300))+'px'}
+  go();setInterval(go,6000);
+  g.onclick=function(){var b=$('gb');b.textContent=GL[gi++%GL.length];b.classList.remove('hide');burst(5);clearTimeout(g.tm);g.tm=setTimeout(function(){b.classList.add('hide')},3800)};
+}
+/* ฉากจบ: ดวงดาวรวมเป็นคำว่า รักณิชา */
+function finale(){
+  var o=document.createElement('div');o.id='fin';o.innerHTML='<canvas></canvas><button id="fx">ปิด 💜</button>';document.body.appendChild(o);
+  var c=o.firstChild,x=c.getContext('2d'),dp=Math.min(2,window.devicePixelRatio||1),W=innerWidth,H=innerHeight;
+  c.width=W*dp;c.height=H*dp;x.scale(dp,dp);requestAnimationFrame(function(){o.classList.add('on')});
+  $('fx').onclick=function(){o.classList.remove('on');setTimeout(function(){o.remove()},600)};
+  function go(){
+    var s=document.createElement('canvas');s.width=W;s.height=H;var q=s.getContext('2d');q.textAlign='center';q.textBaseline='middle';q.fillStyle='#fff';
+    var F='700 100px Mali,"Noto Sans Thai",sans-serif';q.font=F;var fs=Math.min(150,100*W*.8/q.measureText('รักณิชา').width);
+    q.font=F.replace('100px',fs+'px');q.fillText('รักณิชาที่สุดเลยคับ',W/2,H*.42);
+    q.font=F.replace('100px',fs*.32+'px');q.fillText('ครบ 1 เดือน',W/2,H*.42+fs*.85);
+    var d=q.getImageData(0,0,W,H).data,pts=[];
+    for(var yy=0;yy<H;yy+=4)for(var xx=0;xx<W;xx+=4)if(d[(yy*W+xx)*4+3]>128)pts.push([xx,yy]);
+    pts.sort(function(){return Math.random()-.5});pts=pts.slice(0,1500);
+    var cols=['#fde68a','#f0abfc','#c4b5fd','#ffffff'];
+    var P=pts.map(function(a,i){return{x:Math.random()*W,y:Math.random()*H,tx:a[0],ty:a[1],d:Math.random()*.9,r:1+Math.random()*1.6,p:Math.random()*6.28,c:cols[i%4]}});
+    var t0=0;
+    (function f(ts){
+      if(!o.isConnected)return;if(!t0)t0=ts;var t=(ts-t0)/1000;x.clearRect(0,0,W,H);x.globalCompositeOperation='lighter';
+      P.forEach(function(p){if(t>p.d){p.x+=(p.tx-p.x)*.06;p.y+=(p.ty-p.y)*.06}
+        x.globalAlpha=.55+.45*Math.sin(t*3+p.p);x.fillStyle=p.c;x.beginPath();x.arc(p.x,p.y,p.r,0,6.283);x.fill()});
+      requestAnimationFrame(f)})(performance.now());
+  }
+  (document.fonts&&document.fonts.load?document.fonts.load('700 60px Mali','รักณิชา'):Promise.resolve()).then(go,go);
+}
+/* คำถามสุดท้าย */
+function yes(){$('ans').classList.remove('hide');burst(40);finale()}
+function dodge(){var b=$('no');b.style.position='fixed';b.style.left=(8+Math.random()*65)+'vw';b.style.top=(10+Math.random()*75)+'vh'}
+</script>
+</body>
+</html>
