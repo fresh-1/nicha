@@ -225,7 +225,7 @@ function finale(){
   function go(){
     var s=document.createElement('canvas');s.width=W;s.height=H;var q=s.getContext('2d');q.textAlign='center';q.textBaseline='middle';q.fillStyle='#fff';
     var F='700 100px Mali,"Noto Sans Thai",sans-serif';q.font=F;var fs=Math.min(150,100*W*.8/q.measureText('รักณิชา').width);
-    q.font=F.replace('100px',fs+'px');q.fillText('รักณิชาที่สุดเลยคับ',W/2,H*.42);
+    q.font=F.replace('100px',fs+'px');q.fillText('รักณิชา',W/2,H*.42);
     q.font=F.replace('100px',fs*.32+'px');q.fillText('ครบ 1 เดือน',W/2,H*.42+fs*.85);
     var d=q.getImageData(0,0,W,H).data,pts=[];
     for(var yy=0;yy<H;yy+=4)for(var xx=0;xx<W;xx+=4)if(d[(yy*W+xx)*4+3]>128)pts.push([xx,yy]);
